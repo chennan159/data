@@ -909,14 +909,3 @@ rules:
   # 最终规则
   - GEOIP,CN,Domestic
   - MATCH,Others
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

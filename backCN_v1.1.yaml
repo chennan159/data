@@ -909,7 +909,6 @@ rules:
   # 最终规则
   - GEOIP,CN,Domestic
   - MATCH,Others
-© 2022 GitHub, Inc.
 Terms
 Privacy
 Security

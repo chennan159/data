@@ -25,7 +25,7 @@ mode: Rule
 
 # 设置日志输出级别 (默认级别：info）。
 # 5 个级别：silent / info / warning / error / debug。silent，即不输出任何内容,级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
-log-level: info
+log-level: error
 
 # 是否启用 IPv6
 ipv6: true

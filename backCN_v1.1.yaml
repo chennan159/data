@@ -151,10 +151,12 @@ proxy-groups:
   - name: "Auto"
     type: url-test
     proxies:
-      - HK1
-      - HK2
-      - US1
-      - US2
+      - CN 腾讯云
+      - 🇭🇰 D11 香港
+      - 🇭🇰 D12 香港
+      - 🇭🇰 D13 香港
+      - 🇭🇰 D14 香港
+      - 🇭🇰 D15 香港
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: "Proxy"

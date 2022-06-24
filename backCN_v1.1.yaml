@@ -157,6 +157,12 @@ proxy-groups:
       - 🇭🇰 D13 香港
       - 🇭🇰 D14 香港
       - 🇭🇰 D15 香港
+      - 🇨🇳 D20 台湾
+      - 🇨🇳 D21 台湾
+      - 🇨🇳 D22 台湾
+      - 🇨🇳 D23 台湾
+      - 🇨🇳 D24 台湾
+      - 🇨🇳 D25 台湾
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: "Proxy"
@@ -164,10 +170,18 @@ proxy-groups:
     proxies:
       - Auto
       - DIRECT
-      - HK1
-      - HK2
-      - US1
-      - US2
+      - CN 腾讯云
+      - 🇭🇰 D11 香港
+      - 🇭🇰 D12 香港
+      - 🇭🇰 D13 香港
+      - 🇭🇰 D14 香港
+      - 🇭🇰 D15 香港
+      - 🇨🇳 D20 台湾
+      - 🇨🇳 D21 台湾
+      - 🇨🇳 D22 台湾
+      - 🇨🇳 D23 台湾
+      - 🇨🇳 D24 台湾
+      - 🇨🇳 D25 台湾
   - name: "Apple"
     type: select
     proxies:
@@ -177,8 +191,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - CN1
-      - CN2
+      - CN 腾讯云
   - name: "GMedia"
     type: select
     proxies:
@@ -194,17 +207,18 @@ proxy-groups:
     proxies:
       - Proxy
       - DIRECT
-  - name: "Domestic"
-    type: select
-    proxies:
-      - DIRECT
-      - CN1
-      - CN2
   - name: "Others"
     type: select
     proxies:
       - Proxy
       - DIRECT
+  - name: "Domestic"
+      type: select
+    proxies:
+      - Proxy
+      - DIRECT
+      - CN 腾讯云
+      
 
 # 规则列表订阅
 rule-providers:
